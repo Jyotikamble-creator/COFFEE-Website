@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COFFEE Website</title>
+</head>
+<style>
+    /* styling the whole webpage begins */
+    /* styling whole website */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* styling main div  */
+    .main {
+        background-image: url(images/bg1.jpg);
+        height: auto;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+
+    /* styling header div */
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+        padding: 0 20px;
+    }
+
+    /* styling the logo */
+    .logo img {
+        height: 50px;
+        width: 80px;
+    }
+
+    /* styling the navbar */
+    .nav-list ul {
+        display: flex;
+        list-style: none;
+    }
+
+    .nav-list ul li {
+        margin: 0 15px;
+    }
+
+    .nav-list ul li a {
+        color: #ffffff;
+        font-size: 1.6rem;
+        text-decoration: none;
+        padding: 10px 15px;
+        border-radius: 5px;
+        transition: background 0.3s ease;
+    }
+
+    .nav-list ul li a:hover {
+        background-color: #c76107;
+    }
+
+    /* styling search-form */
+    .search-form {
+        margin-right: 10%;
+    }
+
+    /* styling the content of website */
+    h1 {
+        color: rgb(255, 255, 255);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: x-large;
+        font-weight: 10rem;
+        height: 200px;
+        width: 1000px;
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+
+    h2 {
+        color: rgb(255, 255, 255);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: larger;
+        font-weight: 6rem;
+        height: 150px;
+        width: 800px;
+        margin-top: 2%;
+        margin-left: 15%;
+    }
+
+    /* styling button */
+    button {
+        background-color: rgb(151, 3, 3);
+        color: aliceblue;
+        border-radius: 2em;
+        height: 40px;
+        width: 120px;
+        margin-left: 10%;
+        margin-top: 2%;
+        border: none;
+        cursor: pointer;
+        transition: background 0.3s ease;
+        margin-bottom: 10%;
+    }
+
+    button:hover {
+        background-color: rgb(211, 82, 26);
+    }
+
+    /* styling  the footer   */
+    .footer {
+        background-color: #ff8000;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        bottom: 0;
+        width: auto;
+        position: relative;
+    }
+
+    /* styling the whole webpage ends here */
+</style>
+
+<body>
+    <!-- main div started -->
+    <div class="main">
+        <!-- header div started -->
+        <div class="header">
+            <!-- logo of cafe -->
+            <div class="logo">
+                <img src="images/logo.jpg" alt="Logo">
+            </div>
+
+            <!-- navbar  -->
+            <nav class="nav-list">
+                <ul>
+                    <li><a href="firstpage.html">HOME</a></li>
+                    <li><a href="secondpage.html">ABOUT</a></li>
+                    <li><a href="thirdpage.html">MENU</a></li>
+                    <li><a href="fourthpage.html">PRODUCTS</a></li>
+                    <li><a href="#">REVIEW</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                </ul>
+            </nav>
+
+            <!-- search input -->
+            <div class="search-form">
+                <input type="search" id="search-box" placeholder="Search here...">
+            </div>
+        </div>
+
+        <!-- content div started -->
+        <div class="content">
+            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</strong>
+                Laborum est vel id deleniti
+                iusto!
+                Voluptatum,
+                placeat ipsum fugit adipisci voluptas molestiae quidem corporis voluptates, temporibus ipsa aliquid
+                doloribus quilorem,Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium numquam ut
+                blanditiis. Totam alias inventore quaerat dolorem nam, a modi? Ab quasi blanditiis reprehenderit et
+                non laborum, quaerat ex? Necessitatibus nesciunt labore exercitationem accusamus!
+            </h1>
+            <h2>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut tempore, ducimus, ipsam tempora facere
+                commodi
+                quam
+                qui natus illum repudiandae reprehenderit, mollitia praesentium. Ab magni nostrum iure suscipit fugiat
+                eos.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur quo architecto earum quibusdam?
+                Voluptas quos facilis at repellat eligendi eos est consectetur? Nam temporibus dicta quam ex voluptatum
+                perspiciatis, minus maiores molestiae qui corporis.
+            </h2>
+            <h2>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae cum soluta, nihil voluptatum
+                accusantium esse commodi nemo rem, nisi ipsam eum assumenda, illo quas voluptates quia eligendi alias
+                aspernatur placeat.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis exercitationem, explicabo ex repellat
+                iusto, fugit dolore officiis qui unde velit expedita nobis nemo itaque nam enim! Doloremque a delectus,
+                repellendus earum provident fuga quos?
+            </h2>
+        </div>
+        <button>Get It Now</button>
+
+        <!-- footer of the website -->
+        <footer class="footer">
+            <div class="footer-info">
+                <h3>BUZZ CAFE</h3>
+                <h3>Contact Us</h3>
+                <p>Email: info@cafe.com</p>
+                <p>Phone: +123 456 7890</p>
+            </div>
+        </footer>
+
+    </div>
+    <!-- webpage end here -->
+</body>
+
+</html>

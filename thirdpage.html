@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thirdpage</title>
+
+</head>
+<style>
+    /* styling the whole webpage begins */
+    /* styling whole website */
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* styling menu div */
+    .menu {
+        background-image: url(images/b3.jpg);
+        color: antiquewhite;
+        height: auto;
+        width: auto;
+        background-position: center;
+        background-size: cover;
+    }
+
+    /* styling header div */
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+        padding: 0 20px;
+    }
+
+    /* styling the logo */
+    .logo img {
+        height: 50px;
+        width: 80px;
+    }
+
+    /* styling the navbar */
+    .nav-list ul {
+        display: flex;
+        list-style: none;
+    }
+
+    .nav-list ul li {
+        margin: 0 15px;
+    }
+
+    .nav-list ul li a {
+        color: #ffffff;
+        font-size: 1.6rem;
+        text-decoration: none;
+        padding: 10px 15px;
+        border-radius: 5px;
+        transition: background 0.3s ease;
+    }
+
+    .nav-list ul li a:hover {
+        background-color: #c76107;
+    }
+
+    /* styling search-form */
+    .search-form {
+        margin-right: 10%;
+    }
+
+    /* styling the content of website */
+    .h1 {
+        color: rgb(255, 255, 255);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2rem;
+        align-items: center;
+        height: 30px;
+        width: 200px;
+        margin-bottom: 2px;
+        margin-left: 40%;
+        font-weight: bold;
+    }
+
+    .h {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        height: auto;
+        width: auto;
+        justify-content: space-between;
+    }
+
+    /* styling a1 div */
+    .a1 {
+        display: flex;
+        flex-direction: row;
+        overflow: hidden;
+        height: auto;
+        width: auto;
+        justify-content: space-between;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    /* styling a2 div */
+    .a2 {
+        color: black;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+
+    /* styling a3 div */
+    .a3 {
+        display: flex;
+        flex-direction: row;
+        overflow: hidden;
+        height: auto;
+        width: auto;
+        justify-content: space-between;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    /* styling the image */
+    img {
+        height: 250px;
+        width: 250px;
+        display: block;
+        transition: 0.6s;
+    }
+
+    img:hover {
+        transform: scale(1.1);
+    }
+
+    /* styling price tag */
+    .price {
+        color: aliceblue;
+        font-size: larger;
+        font-weight: 2rem;
+    }
+
+    /* styling button */
+    button {
+        background-color: rgb(151, 3, 3);
+        color: aliceblue;
+        border-radius: 2em;
+        height: 40px;
+        width: 100px;
+    }
+
+    button:hover {
+        background-color: rgb(211, 82, 26);
+    }
+
+    /* styling  the footer   */
+    .footer {
+        background-color: #ff8000;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        bottom: 0;
+        width: auto;
+        position: relative;
+    }
+
+    /* styling the whole webpage ends here */
+</style>
+
+<body>
+    <!-- menu div stared -->
+    <div class="menu">
+        <!-- header div stared -->
+        <div class="header">
+            <!-- logo of cafe -->
+            <div class="logo">
+                <img src="images/logo.jpg" alt="Logo">
+            </div>
+
+            <!-- navbar  -->
+            <nav class="nav-list">
+                <ul>
+                    <li><a href="firstpage.html">HOME</a></li>
+                    <li><a href="secondpage.html">ABOUT</a></li>
+                    <li><a href="thirdpage.html">MENU</a></li>
+                    <li><a href="fourthpage.html">PRODUCTS</a></li>
+                    <li><a href="#">REVIEW</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                </ul>
+            </nav>
+
+            <!-- search input -->
+            <div class="search-form">
+                <input type="search" id="search-box" placeholder="Search here...">
+            </div>
+        </div>
+
+        <!-- h1 div stared -->
+        <div class="h1">
+            OUR MENU
+        </div>
+
+        <!-- h div started -->
+        <div class="h">
+            <!-- a1 div started -->
+            <div class="a1">
+                <!-- a2 div started -->
+                <div class="a2">
+                    <img src="images/c1.jpg" alt="">
+                    <div class="price">$15.99/-</div>
+                    <button>Buy Now</button>
+                    <button>Add To Cart</button>
+                </div>
+
+                <div class="a2">
+                    <img src="images/c2.jpg" alt="">
+                    <div class="price">$5.99/-</div>
+                    <button>Buy Now</button>
+                    <button>Add To Cart</button>
+                </div>
+
+                <div class="a2">
+                    <img src="images/c3.jpg" alt="">
+                    <div class="price">$20.00/-</div>
+                    <button>Buy Now</button>
+                    <button>Add To Cart</button>
+                </div>
+
+            </div>
+
+            <!-- a3 div started -->
+            <div class="a3">
+                <!-- a3 div started -->
+                <div class="a2">
+                    <img src="images/c4.jpg" alt="">
+                    <div class="price">$10.99/-</div>
+                    <button>Buy Now</button>
+                    <button>Add To Cart</button>
+                </div>
+
+                <div class="a2">
+                    <img src="images/c5.jpg" alt="">
+                    <div class="price">$15.99/-</div>
+                    <button>Buy Now</button>
+                    <button>Add To Cart</button>
+                </div>
+
+                <div class="a2">
+                    <img src="images/c6.jpg" alt="">
+                    <div class="price">$15.99/-</div>
+                    <button>Buy Now</button>
+                    <button>Add To Cart</button>
+                </div>
+
+            </div>
+
+            <!-- footer of the website -->
+            <footer class="footer">
+                <div class="footer-info">
+                    <h3>BUZZ CAFE</h3>
+                    <h3>Contact Us</h3>
+                    <p>Email: info@cafe.com</p>
+                    <p>Phone: +123 456 7890</p>
+                </div>
+            </footer>
+
+        </div>
+    </div>
+</body>
+
+</html>
